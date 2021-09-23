@@ -59,7 +59,7 @@ const SkillComponent = () => {
               </DIV1>
               <DIV2>
               <DIV3><Span>Database</Span></DIV3>
-              <img width="100%" height="80%" alt="frontend" src="db.png" style={{marginTop:"20px"}} />
+              <img width="100%" height="80%" alt="frontend" src="db.PNG" style={{marginTop:"20px"}} />
               </DIV2>
             </SkillItem>
             <SkillItem> 

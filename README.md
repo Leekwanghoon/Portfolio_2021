@@ -1,18 +1,5 @@
-<!-- https://cdg-portfolio.com/ -->
+현재 배포 페이지
 
+https://leekwanghoon.github.io/Portfolio_2021/
 
-내가 하는거
-
-frontend/db 만들었다
-
-backend
-
-Java/spring
-python
-nodeJs
-
-
-version
-git/github/gitlab
-
-certification
+향후 개발 반응형으로 변화 예정 그리고 정보 추가예정
