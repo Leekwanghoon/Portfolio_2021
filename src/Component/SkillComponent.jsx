@@ -50,7 +50,7 @@ const SkillComponent = () => {
     return(
         <Wrapper>
         <Skill>
-          <TitleComponent text="path" />
+          <TitleComponent text="path1" />
           <SkillContent>
             <SkillItem>
               <DIV1>
