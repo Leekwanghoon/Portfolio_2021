@@ -7,7 +7,6 @@ const Wrapper = styled.div`
 `;
 
 const About = styled.div`
-  height:500px;
   max-width: 93.25rem;
   margin: 0px auto;
 `;
@@ -15,6 +14,11 @@ const AboutContent = styled.div`
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 150px 150px;
+  @media only screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+	  grid-template-rows: 100px 100px 100px 100px 100px;
+    padding: 0rem 6rem 3rem;
+  }
 `;
 
 const AboutItem = styled.div`

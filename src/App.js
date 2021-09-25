@@ -12,16 +12,6 @@ const Background = styled.div`
 `;
 
 
-// const Project = styled.div`
-//   height:300px;
-//   background-color:yellow;
-// `;
-// const Careers = styled.div`
-//   height:300px;
-//   background-color:white;
-// `;
-
-
 
 
 const App = () => {
@@ -53,14 +43,6 @@ const App = () => {
       <AboutComponent />
       <SkillComponent />
       <ArchivingComponent />
-
-
-      {/* <Project>
-        <TitleComponent text="PROJECT" />
-      </Project> */}
-      {/* <Careers>
-        <TitleComponent text="CAREERS" />
-      </Careers> */}
       <FooterComponent />
     </Background>
   );

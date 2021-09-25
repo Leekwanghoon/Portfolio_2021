@@ -5,7 +5,6 @@ const Wrapper = styled.div`
   background-color:#f9c51d;
 `;
 const Skill = styled.div`
-  height:970px;
   max-width: 93.25rem;
   margin: 0px auto;
 `;
@@ -13,12 +12,21 @@ const SkillContent = styled.div`
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 728px;
+  padding-bottom: 30px;
+  @media only screen and (max-width: 550px) {
+    grid-template-columns: 1fr;
+	  grid-template-rows: 728px 728px 728px;
+    grid-row-gap: 13px;
+  }
 `;
 const SkillItem = styled.div`
   max-width: 70%;
   margin:0 58px;
   background: white;
   border-radius: 30px;
+  @media only screen and (max-width: 550px) {
+    margin:0 auto;
+  }
 `;
 
 const DIV1 = styled.div`
@@ -68,12 +76,12 @@ const SkillComponent = () => {
             </SkillItem>
             <SkillItem>
               <DIV1>
-              <DIV3><Span>Version Control</Span></DIV3>
-              <img width="100%" height="80%" alt="frontend" src="version.png" style={{marginTop:"20px"}} />
+              <DIV3><Span>Backend</Span></DIV3>
+              <img width="321.2px" height="80%" alt="frontend" src="version.png" style={{marginTop:"20px"}} />
               </DIV1>
               <DIV2>
-              <DIV3><Span>Certification</Span></DIV3>
-              <img width="100%" height="80%" alt="frontend" src="certification.png" style={{marginTop:"20px"}} />
+              <DIV3><Span>Database</Span></DIV3>
+              <img width="100%" height="80%" alt="frontend" src="certification.PNG" style={{marginTop:"20px"}} />
               </DIV2>
             </SkillItem>
           </SkillContent>

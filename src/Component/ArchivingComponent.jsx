@@ -6,15 +6,20 @@ const Wrapper = styled.div`
 `;
 const Archiving = styled.div`
     max-width: 93.25rem;
-    height: 660px;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 30px;
 `;
 
 const ArchivingContent = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 346px;
+    @media only screen and (max-width: 550px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 346px 346px 346px;
+        grid-row-gap: 23px;
+  }
 `;
 
 const ArchivingItem = styled.div`

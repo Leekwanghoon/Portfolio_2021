@@ -7,3 +7,6 @@ https://leekwanghoon.github.io/Portfolio_2021/
 젠킨스를 이용한 자동배포
 
 배포테스트
+
+
+// "homepage": "https://leekwanghoon.github.io/Portfolio_2021"
