@@ -53,6 +53,15 @@ const Span = styled.span`
   color: #f4623a;
 `;
 
+const Img = styled.img`
+  width: 100%;
+  height: 80%;
+  margin-Top:"20px";
+  @media only screen and (max-width: 550px) {
+    width:321px;
+  }
+`;
+
 
 const SkillComponent = () => {
     return(
@@ -77,11 +86,11 @@ const SkillComponent = () => {
             <SkillItem>
               <DIV1>
               <DIV3><Span>Backend</Span></DIV3>
-              <img width="321.2px" height="80%" alt="frontend" src="version.png" style={{marginTop:"20px"}} />
+              <Img alt="frontend" src="version.png" />
               </DIV1>
               <DIV2>
               <DIV3><Span>Database</Span></DIV3>
-              <img width="100%" height="80%" alt="frontend" src="certification.PNG" style={{marginTop:"20px"}} />
+              <img width="100%" height="80%" alt="frontend" src="certification.png" style={{marginTop:"20px"}} />
               </DIV2>
             </SkillItem>
           </SkillContent>
